@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const luhn = require("fast-luhn");
 // const puppeteer = require("puppeteer-extra");
 // const StealthPlugin = require("puppeteer-extra-plugin-stealth");

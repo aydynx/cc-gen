@@ -1,8 +1,11 @@
 {
   "name": "namso-gen",
   "description": "generate credit card numbers",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "main": "index.js",
+  "bin": {
+    "namso-gen": "index.js"
+  },
   "scripts": {
     "test": "node . -g"
   },
