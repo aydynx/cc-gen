@@ -1,6 +1,6 @@
 {
   "name": "cc-generator",
-  "description": "`npm i -g cc-gen`",
+  "description": "generate credit card numbers",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
