@@ -1,0 +1,29 @@
+{
+  "name": "cc-gen",
+  "description": "`npm i -g cc-gen`",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node . -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aydynx/cc-gen.git"
+  },
+  "keywords": [
+    "cc",
+    "generator",
+    "credit",
+    "card"
+  ],
+  "author": "aydyn#0001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aydynx/cc-gen/issues"
+  },
+  "homepage": "https://github.com/aydynx/cc-gen#readme",
+  "dependencies": {
+    "fast-luhn": "^2.0.0",
+    "yargs": "^17.4.0"
+  }
+}
