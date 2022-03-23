@@ -1,18 +1,18 @@
-# cc-gen
+# namso-gen
 
 ## setup
-`npm i -g cc-generator`
+`npm i -g namso-gen`
 
 ## usage
 ### generating cards
-`cc-generator -g`  
+`namso-gen -g`  
 will generate one card with a random bin
 
-`cc-generator -g 123456`  
+`namso-gen -g 123456`  
 generates card with the bin 123456
 
-`cc-generator -n 10`  
+`namso-gen -n 10`  
 generates 10 cards with random bins
 
-`cc-generator -g 123456 -n 10 > cards.txt`
+`namso-gen -g 123456 -n 10 > cards.txt`
 generates 10 cards with the bin 123456 and saves them to cards.txt
