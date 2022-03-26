@@ -36,7 +36,8 @@ if (argv.generate) {
   let cards = [];
   let card;
   for (let i = 0; i < argv.count; i++) {
-    card = genCard(argv.generate);
+    let bin = Array.from({ length: 6 }, () => Math.floor(Math.random() * 10)).join("");
+    card = genCard(bin);
     cards.push(card);
   }
 
@@ -86,15 +87,7 @@ function genCard(bin) {
 }
 
 function jsonToPipe(json) {
-  return (
-    json.number +
-    "|" +
-    json.date.split("/")[0] +
-    "|" +
-    json.date.split("/")[1] +
-    "|" +
-    json.cvv
-  );
+  return json.number + "|" + json.date.split("/")[0] + "|" + json.date.split("/")[1] + "|" + json.cvv;
 }
 
 // async function checkCards(cards) {
