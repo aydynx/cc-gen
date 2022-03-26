@@ -43,7 +43,9 @@ if (argv.generate) {
   if (argv.json) {
     console.log(cards);
   } else {
-    console.log(jsonToPipe(card));
+    for (card in cards) {
+      console.log(jsonToPipe(cards[card]));
+    }
   }
 }
 
